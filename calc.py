@@ -8,6 +8,9 @@ class calculator:
     def add(self, a, b):
         return np.add(a, b)
 
+    def subtract(self, a, b):
+        return a - b
+
     def multiply(self, a, b):
         return np.multiply(a, b)
 
